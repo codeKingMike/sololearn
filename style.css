@@ -9,9 +9,10 @@ body {
 }
 
 header {
-    height: 60vh;
+    height: 62vh;
     background: url('https://www.sololearn.com/Images/bg.jpg');
-    /* background-color: green; */
+    background-position: center;
+    background-size: cover;
 }
 
 nav {
