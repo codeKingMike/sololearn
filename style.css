@@ -1,0 +1,19 @@
+* {
+     padding: 0;
+    margin: 0; 
+    box-sizing: border-box;
+}
+
+body {
+    font-size: 18px;
+}
+
+header {
+    height: 60vh;
+    background: url('https://www.sololearn.com/Images/bg.jpg');
+    /* background-color: green; */
+}
+
+nav {
+    background-color: transparent;
+}
