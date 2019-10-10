@@ -154,3 +154,44 @@ a.viewCourses {
    width: auto;
 }
 /* COMPANY STYING | COMPANY SECTION | COMPANY AREA  */
+#companySection {
+    text-align: center;
+    min-height: 450px;
+    padding: 35px 0;
+}
+#companySection .numberBold {
+    font-weight: 700;
+    font-size: 1.6rem;
+}
+#companySection a {
+    color: #484848;
+}
+#companySection a:hover {
+    color: #1ABC9C;
+}
+#companyContext .card:hover {
+    border: 1.5px solid #1ABC9C;
+    /* border-radius: none; */
+}
+#companyContext .card-text {
+    font-size: 0.9rem;
+    /* text-align: left; */
+}
+.icons {
+    display: flex;
+    justify-content: center;
+    margin-bottom: 10px;
+}
+.icons i {
+    margin: 0 20px 0 0;
+}
+.companyBottom h5, .companyBottom p {
+    font-size: 0.9rem;
+}
+.companyBottom img {
+    border-radius: 50%;
+    height: 75px;
+    width: 75px;
+    margin: 20px 0;
+}
+
