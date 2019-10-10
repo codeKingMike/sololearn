@@ -264,7 +264,7 @@ a.viewCourses {
 #footerArea i.fa-google-plus-official {
     background: #219C8B;
 }
-#footerArea span {
+#footerArea span.atSolo {
     background: #fff;
     padding: 35px 60px;
     font-weight: 500;
@@ -286,9 +286,26 @@ a.viewCourses {
  #footerArea .footerUl li {
     list-style-type: none;
     color: #b4bbc2;
-     font-size: 15.5px; 
+    font-size: 15.5px; 
+    font-weight: bold;
+    line-height: 1.6rem;
+} 
+ #footerArea .footerUl a {
+    text-decoration: none;
     font-weight: bold;
 } 
+ #footerArea .footerUl li:hover {
+    color: #92989e;
+} 
+ #footerArea .blueText {
+    color: #86A7C3;
+}
+ #footerArea .greyText {
+    color: #B2B2B4;
+}
+ #footerArea h1 {
+    color: #fff;
+}
 .footerUl div:first-child {
     font-size: 1rem;
     color: #383737 !important;
