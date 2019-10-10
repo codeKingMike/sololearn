@@ -92,3 +92,29 @@ header a.btn-lg {
 #cardLang p {
     font-size: 0.9rem;
 }
+#cardLang a.backgroundChange {
+    background-color: #1ABC9C;
+    color: #fff;
+    border-radius: 50px;
+    margin-top: 10px;
+    padding: 10px 20px; 
+    font-weight: 500;
+    border: 1px solid #1ABC9C;
+}
+#cardLang a.backgroundChange:hover {
+    background-color: #17a68a;
+    color: #fff;
+    border-radius: 50px;
+    margin-top: 10px;
+    padding: 10px 20px; 
+    font-weight: 500;
+    border: 1px solid #17a68a;
+}
+a.viewCourses {
+    color: #1ABC9C;
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    width: 50%;
+    font-weight: 500;
+}
