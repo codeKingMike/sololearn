@@ -8,6 +8,19 @@ body {
     font-size: 18px;
 }
 
+ h2, h3, h5 {
+      font-size: 2rem;  
+} 
+
+p {
+    font-size: 1.1rem;
+}
+
+header #mainHeader, #cardLang, #digits, #companyContext, #beAMember, #learnPlay #footerSection {
+    width: 80%;
+    margin: 0 auto;
+}
+/*HEADER STYLING  */
 header {
     height: 62vh;
     background: url('https://www.sololearn.com/Images/bg.jpg');
@@ -15,6 +28,46 @@ header {
     background-size: cover;
 }
 
+#mainHeader, header a, nav h1 {
+    color: #fff;
+}
+
+header a:hover {
+    color: #fff;
+    background-color: #1ABC9C;
+    border-radius: 20px;
+}
+
+#mainHeader a.signIn {
+    background-color: #1ABC9C;
+    border-radius: 5px;
+}
+
+.headingText {
+    width: 75%;
+    margin-top: 30px;
+}
+
+.headingText .middleText {
+    padding: 15px 0;
+    font-size: 1.2rem;
+}
+
+a.nav-link {
+    font-weight: 700;
+    text-transform: uppercase;
+    font-size: 0.9rem;
+}
 nav {
     background-color: transparent;
 }
+
+header button {
+    background-color: #1ABC9C;
+    color: #fff;
+    border-radius: 50px;
+    margin-top: 10px;
+    padding: 5px 50px; 
+    font-weight: 600;
+    border: 1px solid #1ABC9C;
+/*CARD LANGUAGE SECTION  */
