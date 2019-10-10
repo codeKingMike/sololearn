@@ -233,6 +233,10 @@ a.viewCourses {
 #footerArea p {
     text-align: center;
 }
+#footerArea i {
+    background: #1ABC9C;
+    padding: 25px;
+}
 .footer-content {
     display: flex;
     justify-content: space-around;
