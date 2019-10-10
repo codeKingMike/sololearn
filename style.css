@@ -224,4 +224,16 @@ a.viewCourses {
     font-size: 1.8em;
     font-weight: bold;
 } */
-
+/* FOOTER STYING | FOOTER SECTION | FOOTER AREA  */
+#footerArea {
+    background: #eaedf1;
+    min-height: 300px;
+    padding: 35px;
+}
+#footerArea p {
+    text-align: center;
+}
+.footer-content {
+    display: flex;
+    justify-content: space-around;
+}
