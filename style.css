@@ -32,10 +32,10 @@ header {
     color: #fff;
 }
 
-header a:hover {
+header a.nav-link:hover {
     color: #fff;
     background-color: #1ABC9C;
-    border-radius: 20px;
+    border-radius: 5px;
 }
 
 #mainHeader a.signIn {
@@ -57,17 +57,22 @@ a.nav-link {
     font-weight: 700;
     text-transform: uppercase;
     font-size: 0.9rem;
+    padding: 7px 10px;
 }
+
+ a.nav-link {
+    margin: 0 4px;
+} 
 nav {
     background-color: transparent;
 }
 
-header button {
+header a.btn-lg {
     background-color: #1ABC9C;
     color: #fff;
     border-radius: 50px;
     margin-top: 10px;
-    padding: 5px 50px; 
+    padding: 10px 50px; 
     font-weight: 600;
     border: 1px solid #1ABC9C;
 /*CARD LANGUAGE SECTION  */
