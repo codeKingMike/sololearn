@@ -72,7 +72,7 @@ header a.btn-lg {
     padding: 40px 0;
     text-align: center;
 }
- div.card {
+ div.cardLan {
   width: 290px;
   box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
   margin: 0 auto;
@@ -153,3 +153,4 @@ a.viewCourses {
 #digits img {
    width: auto;
 }
+/* COMPANY STYING | COMPANY SECTION | COMPANY AREA  */
