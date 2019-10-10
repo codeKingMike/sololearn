@@ -212,3 +212,16 @@ a.viewCourses {
     font-weight: 500;
     border: 1px solid #1ABC9C;
 }
+/* LEARN PLAY STYING | LEARN PLAY SECTION | LEARN PLAY AREA  */
+#learn {
+    padding: 20px;
+    text-align: center;
+    min-height: auto; 
+    background: #3A464B;
+    color: #fff;
+}
+/* #learn p {
+    font-size: 1.8em;
+    font-weight: bold;
+} */
+
