@@ -231,7 +231,10 @@ a.viewCourses {
     padding: 35px;
 }
 #footerArea p {
-    text-align: center;
+    padding-top: 20px;
+}
+#footerArea p.company {
+    font-size: 14.5px;
 }
 #footerArea i {
     background: #1ABC9C;
@@ -278,7 +281,7 @@ a.viewCourses {
     color: #383737 !important;
 } 
 #footerArea .soloAddress {
-    
+    text-align: left;
 } 
 #footerArea .soloAddress button {
     background-color: #1ABC9C;
@@ -288,5 +291,12 @@ a.viewCourses {
     font-size: 0.9rem;
     border: 1px solid #1ABC9C;
 } 
+#footerArea address {
+    color: #b4bbc2;
+    font-size: 14.5px;
+    font-weight: 500;
+} 
+    
+
 
 
