@@ -338,7 +338,59 @@ a.viewCourses {
     font-size: 0.8rem;
     margin: 10px 0;
 } 
-    
+.pos-f-t {
+    display: none;
+}
+/*MOBILE RESPONSIVE AREA | MEDIA QUERIES | MOBILE */
+ @media only screen and (max-width: 600px) {
+  /* For mobile phones: */
+  [class*="col-"] {
+    width: 100%;
+  }
+.pos-f-t {
+    display: block;
+}
+.nav {
+    display: grid;
+    grid-template-rows: 1fr;
+}
+.mainNav {
+    display: none;
+}
+.headingText h1 {
+    font-size: 1.4rem;
+}
+.headingText .middleText {
+    font-size: 16px;
+    font-weight: 700;
+}
+header #mainHeader, #cardLang, #digits, #companyContext, #beAMember, #learnPlay {
+    width: 90%;
+    margin: 0 auto;
+}
+}   
+
+
+ @media only screen and (max-width: 968px) {
+  /* For mobile phones: */
+  [class*="col-"] {
+    width: 100%;
+  }
+  .headingText h1 {
+    font-size: 1.8rem;
+    width: 100%;
+}
+.headingText {
+    width: 100%;
+}
+.headingText .middleText {
+    font-size: 16px;
+    font-weight: 700;
+}
+#mainHeader {
+    width: 100%;
+}
+}   
 
 
 
