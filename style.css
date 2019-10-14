@@ -17,7 +17,7 @@ header #mainHeader, #cardLang, #digits, #companyContext, #beAMember, #learnPlay 
     margin: 0 auto;
 }
 /*HEADER STYLING  */
-header {
+#mainPageHeader {
     height: 62vh;
     background: url('https://www.sololearn.com/Images/bg.jpg');
     background-position: center;
@@ -407,6 +407,7 @@ header {
     width: 100%;
 }
 }   
-
-
-
+/* COURSES PAGE STYLING | COURSES STYLING  */
+#coursesHeader {
+    background: royalblue;
+}

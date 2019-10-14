@@ -1,0 +1,215 @@
+/* COURSES PAGE STYLING | COURSES STYLING  */
+* {
+    padding: 0;
+   margin: 0; 
+   box-sizing: border-box;
+}
+body {
+   font-size: 18px;
+}
+h2, h3 {
+     font-size: 2rem;  
+} 
+p {
+   font-size: 1.1rem;
+}
+#cardLang, #learnPlay {
+    width: 80%;
+    margin: 0 auto;
+}
+/* #secHead {
+    background: red;;
+} */
+/* MENU MOBILE BAR | MOBILE BAR | MENU NAV BAR */
+.pos-f-t {
+    display: none;
+}
+/* MENU BAR | BAR | MENU NAV BAR */
+#mainHeader {
+    display: flex;
+    justify-content: center;
+}
+#mainHeader, header a, nav h1 {
+    color: #fff;
+}
+header a.nav-link:hover {
+    color: #fff;
+    background-color: #1ABC9C;
+    border-radius: 5px;
+}
+#mainHeader a.active {
+    background-color: #1ABC9C;
+    border-radius: 5px;
+}
+/*CARD LANGUAGE SECTION  */
+#cardLanguage {
+    min-height: 500px;
+}
+#cardLang {
+    padding: 40px 0;
+    text-align: center;
+}
+ div.cardLan {
+  width: 290px;
+  box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+  margin: 0 auto;
+} 
+#cardLang img {
+    border-radius: 50%;
+    height: 100px;
+    width: 100px;
+    margin-top: 40px;
+}
+ img.center {
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+  width: 50%;
+} 
+#cardLang p {
+    font-size: 0.9rem;
+}
+#cardLang a.backgroundChange {
+    background-color: #1ABC9C;
+    color: #fff;
+    border-radius: 50px;
+    margin-top: 10px;
+    padding: 10px 20px; 
+    font-weight: 500;
+    border: 1px solid #1ABC9C;
+}
+#cardLang a.backgroundChange:hover {
+    background-color: #17a68a;
+    color: #fff;
+    border-radius: 50px;
+    margin-top: 10px;
+    padding: 10px 20px; 
+    font-weight: 500;
+    border: 1px solid #17a68a;
+    
+}
+a.viewCourses {
+    color: #1ABC9C;
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    width: 50%;
+    font-weight: 500;
+}
+#courses {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+}
+.courses {
+    display: grid;
+    grid-template-columns: 1fr 2fr;
+}
+/* LEARN PLAY STYING | LEARN PLAY SECTION | LEARN PLAY AREA  */
+#learn {
+    padding: 20px;
+    text-align: center;
+    min-height: auto; 
+    background: #3A464B;
+    color: #fff;
+}
+/* FOOTER STYING | FOOTER SECTION | FOOTER AREA  */
+#footerArea {
+    background: #eaedf1;
+    min-height: 300px;
+    padding: 35px;
+}
+#footerArea p {
+    padding-top: 20px;
+}
+#footerArea p.company {
+    font-size: 14.5px;
+}
+#footerArea i {
+    background: #1ABC9C;
+    padding: 25px;
+    color: #fff;
+}
+#footerArea i.fa-twitter {
+    background: #29C0AC;
+}
+
+#footerArea i.fa-facebook-official {
+    background: #24AA98;
+}
+#footerArea i.fa-google-plus-official {
+    background: #219C8B;
+}
+#footerArea span.atSolo {
+    background: #fff;
+    padding: 35px 60px;
+    font-weight: 500;
+    color: #b4bbc2;
+    font-size: 1.4rem;
+    
+}
+ #footerArea .disGrid {
+    display: grid;
+    grid-template-rows: 1fr 1fr 1fr;
+} 
+ #footerArea .disGrid a {
+    text-decoration: none;
+} 
+ #footerArea .disGrid span:hover {
+    color: #92989e;
+} 
+.footer-content {
+    display: flex;
+    justify-content: space-around;
+}
+ #footerArea .footerUl li {
+    list-style-type: none;
+    color: #b4bbc2;
+    font-size: 15.5px; 
+    font-weight: bold;
+    line-height: 1.6rem;
+} 
+ #footerArea .footerUl a {
+    text-decoration: none;
+    font-weight: bold;
+} 
+ #footerArea .footerUl li:hover {
+    color: #92989e;
+} 
+ #footerArea .blueText {
+    color: #86A7C3;
+}
+ #footerArea .greyText {
+    color: #B2B2B4;
+}
+ #footerArea h1 {
+    color: #fff;
+}
+.footerUl div:first-child {
+    font-size: 1rem;
+    color: #383737 !important;
+} 
+#footerArea .soloAddress {
+    text-align: left;
+} 
+#footerArea .soloAddress button {
+    background-color: #1ABC9C;
+    border-radius: 5px;
+    color: #fff;
+    padding: 7px;
+    font-size: 0.9rem;
+    border: 1px solid #1ABC9C;
+} 
+#footerArea .soloAddress button:hover {
+    background-color: #17a68a;
+    border: 1px solid #17a68a;
+} 
+#footerArea address {
+    color: #b4bbc2;
+    font-size: 14.5px;
+    font-weight: 500;
+} 
+#footerArea .copyright {
+    text-align: center;
+    font-size: 0.8rem;
+    margin: 10px 0;
+} 
