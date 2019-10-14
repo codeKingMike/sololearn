@@ -368,6 +368,22 @@ header #mainHeader, #cardLang, #digits, #companyContext, #beAMember, #learnPlay 
     width: 90%;
     margin: 0 auto;
 }
+header {
+    height: 72vh;
+    background: url('https://www.sololearn.com/Images/bg.jpg');
+    background-position: right center;
+    background-size: cover;
+}
+/* NEED TO MAKE CONTENT DISSAPEAR WHEN CLICKING ON MOBILE MENU AND TEXT WHITE */
+#secHead {
+  background-color: #000;
+  height: 72vh;
+  opacity: 0.6;
+  filter: alpha(opacity=60);
+  padding: 22px;
+  width: auto;
+  margin: auto;
+}
 }   
 
 
