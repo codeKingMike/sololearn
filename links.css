@@ -101,7 +101,7 @@ a.viewCourses {
     grid-template-columns: 1fr 1fr;
     column-gap: 35px;
     row-gap: 25px;
-    width: 80%;
+    width: 70%;
     margin: 0 auto;
 
 }
