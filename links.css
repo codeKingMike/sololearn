@@ -41,20 +41,8 @@ header a.nav-link:hover {
     background-color: #1ABC9C;
     border-radius: 5px;
 }
-/*CARD LANGUAGE SECTION  */
-#cardLanguage {
-    min-height: 500px;
-}
-#cardLang {
-    padding: 40px 0;
-    text-align: center;
-}
- div.cardLan {
-  width: 290px;
-  box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
-  margin: 0 auto;
-} 
-#cardLang img {
+/* COURSES CARD LANGUAGE SECTION | LEARN COURSES CARDS  */
+#courses img {
     border-radius: 50%;
     height: 100px;
     width: 100px;
@@ -66,27 +54,26 @@ header a.nav-link:hover {
   margin-right: auto;
   width: 50%;
 } 
-#cardLang p {
+#courses p {
     font-size: 0.9rem;
 }
-#cardLang a.backgroundChange {
+#courses .courseBtn {
+    display: grid;
+    width: 50%;
+    justify-self: end;
+    margin-left: 150px;
+    radius: 40%;
     background-color: #1ABC9C;
-    color: #fff;
-    border-radius: 50px;
-    margin-top: 10px;
-    padding: 10px 20px; 
-    font-weight: 500;
     border: 1px solid #1ABC9C;
 }
-#cardLang a.backgroundChange:hover {
+#courses .courseBtn:hover {
     background-color: #17a68a;
-    color: #fff;
-    border-radius: 50px;
-    margin-top: 10px;
-    padding: 10px 20px; 
-    font-weight: 500;
     border: 1px solid #17a68a;
-    
+}
+.numberContext span {
+    color: #1ABC9C;
+    font-weight: 700;
+    font-size: 1rem;
 }
 a.viewCourses {
     color: #1ABC9C;
@@ -104,6 +91,7 @@ a.viewCourses {
     width: 70%;
     margin: 0 auto;
     padding: 30px 0;
+    /* background: #F2F2F2; */
 }
 /* hr {
     margin-left: 0;
