@@ -62,7 +62,7 @@ header a.nav-link:hover {
     width: 50%;
     justify-self: end;
     margin-left: 150px;
-    radius: 40%;
+    border-radius: 50px;
     background-color: #1ABC9C;
     border: 1px solid #1ABC9C;
 }
