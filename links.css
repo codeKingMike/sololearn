@@ -13,7 +13,7 @@ h2, h3 {
 p {
    font-size: 1.1rem;
 }
-#cardLang, #learnPlay {
+#cardLang, #learnPlay, footer {
     width: 80%;
     margin: 0 auto;
 }
@@ -28,11 +28,15 @@ p {
 #mainHeader {
     display: flex;
     justify-content: center;
+    background-color: #3a464b;
+}
+#mainNav {
+    background-color: #3a464b;
 }
 #mainHeader, header a, nav h1 {
     color: #fff;
 }
-header a.nav-link:hover {
+header a.nav-link:hover, #mainHeader a.signInNav:hover {
     color: #fff;
     background-color: #1ABC9C;
     border-radius: 5px;
@@ -44,6 +48,10 @@ header a.nav-link:hover {
 a.nav-link {
     margin: 0 5px;
     padding: 5px 10px;
+}
+#mainHeader a.signInNav {
+    background-color: #343d41;
+    border-radius: 5px;
 }
 /* COURSES CARD LANGUAGE SECTION | LEARN COURSES CARDS  */
 #courses img {

@@ -12,8 +12,8 @@ body {
 p {
     font-size: 1.1rem;
 }
-header #mainHeader, #cardLang, #digits, #companyContext, #beAMember, #learnPlay {
-    width: 80%;
+header #mainHeader, #cardLang, #digits, #companyContext, #beAMember, #learnPlay, #footerSection {
+    width: 70%;
     margin: 0 auto;
 }
 /*HEADER STYLING  */
