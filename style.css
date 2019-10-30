@@ -374,12 +374,18 @@ header {
     background-position: right center;
     background-size: cover;
 }
+.footer-content {
+    display: grid;
+    grid-template-rows: 1fr;
+    text-align: center;
+    grid-gap: 30px;
+}
 /* NEED TO MAKE CONTENT DISSAPEAR WHEN CLICKING ON MOBILE MENU AND TEXT WHITE */
 #secHead {
   background-color: #000;
   height: 72vh;
-  opacity: 0.6;
-  filter: alpha(opacity=60);
+  opacity: 0.5;
+  filter: alpha(opacity=50);
   padding: 22px;
   width: auto;
   margin: auto;
