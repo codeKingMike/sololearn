@@ -326,11 +326,22 @@ a.viewCourses {
   .flexCard {
       display: flex;
       justify-content: space-between;
+      padding: 20px 0;
   }
   #mainCodePlay input {
-      max-width: 50%;
+      width: 80%;
   }
-
+  .btnChange {
+    background-color: #1ABC9C;
+    color: #fff;
+    font-weight: 700;
+  }
+  .flexCard span {
+    background-color: #1ABC9C;
+    color: #fff;
+    font-weight: 700;
+    
+  }
   .flexRightCard {
       display: flex;
       justify-content: space-around;
