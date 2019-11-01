@@ -323,6 +323,9 @@ a.viewCourses {
       grid-template-columns: 2fr 1fr;
       grid-gap: 20px;
   }
+  .card-header a.activeColor {
+      color: #1ABC9C;
+  }
   .flexCard {
       display: flex;
       justify-content: space-between;
@@ -347,6 +350,11 @@ a.viewCourses {
       justify-content: space-around;
       padding: 10px 15px;
   }
+  .cardCenter h5 {
+    padding: 15px 15px 0 15px;
+    font-size: 0.9rem;
+    font-weight: 700;
+}
   .hotTodayText {
       font-size: 0.8rem;
   }
@@ -358,7 +366,7 @@ a.viewCourses {
   }
   .context a {
     color: gray;
-    padding: 5px 0;
+    padding: 0 0 5px 0;
     text-decoration: none;
 }
 .context a span {
@@ -379,6 +387,12 @@ a.viewCourses {
 .cardBodyFlex .titles p {
     color: #1ABC9C;
     margin: 0 0 0 15px;
+    font-size: 0.8rem;
+}
+.cardBodyFlex .titles .icon {
+    color: lightgray;
+    margin: 0 10px;
+    font-size: 1.3rem;
 }
 .cardBodyFlex h5 {
     font-size: 0.8rem;
@@ -390,8 +404,8 @@ a.viewCourses {
 }
 .cardBodyFlex img.circleThis {
     border-radius: 50%;
-    height: 50px;
-    width: 50px;
+    height: 40px;
+    width: 40px;
 }
 .leftSide {
     display: flex;
@@ -403,6 +417,9 @@ a.viewCourses {
 .rightSide {
     display: flex;
     align-items: center;
+}
+.rightSide .dateText {
+    color: lightgray;
 }
 
 @media only screen and (max-width: 968px) {
