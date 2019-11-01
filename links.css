@@ -330,3 +330,65 @@ a.viewCourses {
   #mainCodePlay input {
       max-width: 50%;
   }
+
+  .flexRightCard {
+      display: flex;
+      justify-content: space-around;
+      padding: 10px 15px;
+  }
+  .hotTodayText {
+      font-size: 0.8rem;
+  }
+  .context {
+      display: grid;
+      grid-template-rows: 1fr;
+      text-decoration: none;
+      color: grey;
+  }
+  .context a {
+    color: gray;
+    padding: 5px 0;
+    text-decoration: none;
+}
+.context a span {
+    margin: 0 0 0 10px;
+    font-size: 0.8rem;
+}
+.context a span:hover {
+    color: #1ABC9C;
+}
+
+@media only screen and (max-width: 968px) {
+    .mainCodePlayGrid {
+        display: grid;
+        grid-template-columns: 1fr;
+        grid-gap: 20px;
+    }
+    .cardCenter  {
+        width: 65%;
+        margin: 0 auto;
+    }
+  
+  }   
+
+  @media only screen and (max-width: 760px) {
+  
+  } 
+/*MOBILE AREA | MEDIA QUERIES | MOBILE */
+@media only screen and (max-width: 600px) {
+    /* For mobile phones: */
+    #mainCodePlayDiv {
+        width: 90%;
+        margin: 0 auto;
+        padding: 20px 0;
+    }
+    .mainCodePlayGrid {
+        display: grid;
+        grid-template-columns: 1fr;
+        grid-gap: 20px;
+    }
+    .cardCenter  {
+        width: 65%;
+        margin: 0 auto;
+    }
+  }   
