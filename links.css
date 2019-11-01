@@ -368,6 +368,42 @@ a.viewCourses {
 .context a span:hover {
     color: #1ABC9C;
 }
+.cardBodyFlex {
+    display: flex;
+    justify-content: space-between;
+}
+.cardBodyFlex p {
+    font-size: 0.7rem;
+    margin: 0 10px 0 0;
+}
+.cardBodyFlex .titles p {
+    color: #1ABC9C;
+    margin: 0 0 0 15px;
+}
+.cardBodyFlex h5 {
+    font-size: 0.8rem;
+    margin: 0 0 0 15px;
+}
+.cardBodyFlex img {
+    height: 50px;
+    width: 50px;
+}
+.cardBodyFlex img.circleThis {
+    border-radius: 50%;
+    height: 50px;
+    width: 50px;
+}
+.leftSide {
+    display: flex;
+    align-items: center;
+}
+.leftSide p {
+    
+}
+.rightSide {
+    display: flex;
+    align-items: center;
+}
 
 @media only screen and (max-width: 968px) {
     .mainCodePlayGrid {
