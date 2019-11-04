@@ -355,6 +355,23 @@ a.viewCourses {
     font-size: 0.9rem;
     font-weight: 700;
 }
+.cardCenter a.adBtn {
+    /* color: red;
+    padding: 30px;
+    margin: 40px; */
+}
+.cardCenter a.adBtn button {
+    color: red;
+    padding: 20px 40px;
+    margin: 40px;
+    border: 1px solid #1ABC9C;
+    border-radius: 5%;
+    background-color: #1ABC9C;
+    color: #fff;
+}
+.cardCenter .web {
+    font-size: 1.8rem;
+}
   .hotTodayText {
       font-size: 0.8rem;
   }
